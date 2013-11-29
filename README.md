@@ -1,4 +1,6 @@
-# Sassline
+# Lessline (Less version of Jake's Sassline framework)
+
+** NOTE: All documentation below is from the Sass version **
 
 Set text on the web to a baseline grid easily with rems and Sass. [Sassline](http://sassline.com) can be used for prototyping, blogs or other web projects. It has recommended base typography styling and mixins to work proportionally from the baseline grid. As little bloat as possible, simples.
 
