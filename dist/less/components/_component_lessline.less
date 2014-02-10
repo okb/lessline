@@ -1,0 +1,47 @@
+// Less mixins
+// ---------------------------------------
+
+// Root font-size in %.
+.rootsize-0() { 
+  font-size: (@rootsize-0 / 16) * 100%; 
+}
+.rootsize-1() { 
+  font-size: (@rootsize-1 / 16) * 100%; 
+}
+.rootsize-2() { 
+  font-size: (@rootsize-2 / 16) * 100%;
+}
+.rootsize-3() { 
+  font-size: (@rootsize-3 / 16) * 100%; 
+}
+.rootsize-4() { 
+  font-size: (@rootsize-4 / 16) * 100%; 
+}
+
+// Font-size in rems. Pixel fallbacks for full browser support.
+.fontsize-0(@value) { 
+  font-size: ((@value / @rootsize-0) * 1rem); 
+}
+.fontsize-1(@value) { 
+  font-size: ((@value / @rootsize-1) * 1rem); 
+}
+.fontsize-2(@value) { 
+  font-size: ((@value / @rootsize-2) * 1rem); 
+}
+.fontsize-3(@value) { 
+  font-size: ((@value / @rootsize-3) * 1rem); 
+}
+.fontsize-4(@value) { 
+  font-size: ((@value / @rootsize-4) * 1rem); 
+}
+
+// Clearfix.
+.clearfix() {
+  &:before, &:after{
+    display: table;
+    content: "";
+  }
+  &:after{
+    clear: both;
+  }
+}
