@@ -1,0 +1,30 @@
+{
+  "name": "Lessline",
+  "version": "1.1.0",
+  "homepage": "https://github.com/okb/lessline",
+  "authors": [
+    "Kenneth Dahlstrøm <kenneth@dpd.im>",
+    "Jake Giltsoff <hi@jke.me>"
+  ],
+  "description": "Baseline text grid",
+  "main": [
+    ".dist/less/components/_component_mixins.less"
+  ],
+  "keywords": [
+    "less",
+    "lessline",
+    "grid",
+    "gridsystem",
+    "baselinegrid",
+    "baseline",
+    "typography"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
