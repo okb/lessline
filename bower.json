@@ -8,7 +8,7 @@
   ],
   "description": "Baseline text grid",
   "main": [
-    ".dist/less/components/_component_mixins.less"
+    ".dist/less/components/_component_lessline.less"
   ],
   "keywords": [
     "less",
