@@ -8,9 +8,9 @@
   ],
   "description": "Baseline text grid",
   "main": [
-    ".components/_component_lessline.less"
-    ".components/_component_variables.less"
-    ".components/_component_typography.less"
+    ".components/_component_lessline.less",
+    ".components/_component_variables.less",
+    ".components/_component_typography.less",
     "./lessline.less"
   ],
   "keywords": [
