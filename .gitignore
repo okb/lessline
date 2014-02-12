@@ -1,6 +1,4 @@
 
-
-
 # OSX
 .DS_Store
 .AppleDouble
@@ -30,7 +28,7 @@ node_modules
 dist/css
 
 
-# Ignore JS library
-assets/js/lib
+# Ignore vendor files
+vendor
 
 .sass-cache

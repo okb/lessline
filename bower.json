@@ -1,6 +1,6 @@
 {
   "name": "Lessline",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "homepage": "https://github.com/okb/lessline",
   "authors": [
     "Kenneth Dahlstrøm <kenneth@dpd.im>",
@@ -8,7 +8,10 @@
   ],
   "description": "Baseline text grid",
   "main": [
-    ".dist/less/components/_component_lessline.less"
+    ".components/_component_lessline.less"
+    ".components/_component_variables.less"
+    ".components/_component_typography.less"
+    "./lessline.less"
   ],
   "keywords": [
     "less",
@@ -23,7 +26,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "vendor",
     "test",
     "tests"
   ]
