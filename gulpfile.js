@@ -28,6 +28,11 @@ gulp.task('images', function() {
         .pipe(gulp.dest('dist/images/'));
 });
 
+// Scripts tasks
+gulp.task('scripts', function() {
+    gulp.src('./assets/js/**/*')
+        .pipe(gulp.dest('dist/js/'));
+});
 
 // Clean
 gulp.task('clean', function() {
@@ -36,10 +41,7 @@ gulp.task('clean', function() {
 });
 
 // Prod task
-gulp.task('prod', ['clean'], function() {
-    gulp.run('less');    
-    gulp.run('images');
-});
+gulp.task('prod', ['clean', 'styles', 'images', 'scripts']);
 
 // Dev task (Watch)
 gulp.task('dev', function() {

@@ -27,7 +27,7 @@ $RECYCLE.BIN/
 node_modules
 
 # Ignore Rendered CSS folder
-dist/css
+# dist/css
 
 
 # Ignore JS library
